@@ -1,0 +1,2 @@
+# EstouPerdido
+Arquivos de Tradução
