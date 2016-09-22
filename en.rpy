@@ -6,7 +6,7 @@ init -3 python:
         config.name = 'I Am Lost'
 ######## Navegação
         nav_newgame = 'New Game'
-        nav_history = 'Dialogs'
+        nav_history = 'Dialogues'
         nav_save = 'Save'
         nav_continue = 'Continue'
         nav_menu = 'Menu'
