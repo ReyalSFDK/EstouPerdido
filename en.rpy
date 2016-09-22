@@ -5,81 +5,81 @@ init -3 python:
     if lang == "en":
         config.name = 'I Am Lost'
 ######## Navegação
-        nav_newgame = 'Novo Jogo'
-        nav_history = 'Diálogos'
-        nav_save = 'Salvar'
-        nav_continue = 'Continuar'
+        nav_newgame = 'New Game'
+        nav_history = 'Dialogs'
+        nav_save = 'Save'
+        nav_continue = 'Continue'
         nav_menu = 'Menu'
-        nav_option = 'Opções'
-        nav_about = 'Sobre'
-        nav_help = 'Ajuda'
-        nav_quit = 'Sair'
+        nav_option = 'Options'
+        nav_about = 'About'
+        nav_help = 'Help'
+        nav_quit = 'Exit'
 ####### Geral
-        lang_Yes = 'Sim'
-        lang_No = 'Não'
-        lang_version ='Versão'
+        lang_Yes = 'Yes'
+        lang_No = 'No'
+        lang_version ='Version'
 ###### Confirmações
-        confirm_quit = 'Você tem certeza que deseja sair do jogo?'
-        confirm_menu = 'Tem certeza de que você quer retornar ao menu principal?\nVocê perderá qualquer progresso que ainda não tenha sido salvo.'
-        confirm_overwrite = 'Tem certeza de que você deseja sobrescrever o jogo salvo?'
-        confirm_loadSave = 'Carregar esse jogo salvo fará você perder qualquer progresso que ainda não tenha salvo.\nTem certeza de que quer fazer isso?'
-        confirm_deleteSave = 'Tem certeza de que você deseja deletar o jogo salvo?'
+        confirm_quit = 'Are you sure you want to leave the game?'
+        confirm_menu = 'Are you sure you want to return to the main menu?\nYou will lose any progress that hasn't been saved.'
+        confirm_overwrite = 'Are you sure you want to overwrite this saved game?'
+        confirm_loadSave = 'Loading this game will make you lose any progress that hasn't been saved.\n Are you sure you want to do this?'
+        confirm_deleteSave = 'Are you sure you want to delete the saved game?'
 ##### Salvar/Carregar
-        sl_emptySlot = 'Espaço Vazio.'
-        sl_page = 'Página'
+        sl_emptySlot = 'Blank space.'
+        sl_page = 'Page'
 ##### Configurações
-        config_display = 'Exibição'
-        config_window = 'Janela'
-        config_fullscreen = 'Tela Cheia'
-        config_lang = 'Idioma do jogo'
-        config_br = 'Português'
-        config_en = 'Inglês'
-        config_es = 'Espanhol'
-        config_textSpeed = 'Velocidade do Texto'
-        config_default = 'Padrão'
-        config_fast = 'Rápida'
-        config_textSize = 'Tamanho do Texto'
-        config_small = 'Pequeno'
-        config_medium = 'Médio'
-        config_big = 'Grande'   
-        config_sound = 'Volume do Som'
-        config_music = 'Volume da Música'
-        config_mute = 'Deixar Mudo'
+        config_display = 'Exhibition'
+        config_window = 'Window'
+        config_fullscreen = 'Full Screen'
+        config_lang = 'Game Language'
+        config_br = 'Portuguese'
+        config_en = 'English'
+        config_es = 'Spanish'
+        config_textSpeed = 'Subtitle Speed'
+        config_default = 'Standard'
+        config_fast = 'Fast'
+        config_textSize = 'Subtitle Size'
+        config_small = 'Small'
+        config_medium = 'Medium'
+        config_big = 'Big'   
+        config_sound = 'Sound Volume'
+        config_music = 'Music Volume'
+        config_mute = 'Mute'
 
 ######################################################
 ##      Tradução da História                        ##
 ######################################################
     game_you = 'Você'
-    game_unknow = 'Estranho'
+    game_unknow = 'Weird'
 
 #### Cena Avião
-    airplane_1 = "Você está dentro de um avião comercial voltando de uma viagem de férias com seus dois amigos.{w=1} Você está sentado na fileira da direita, na poltrona bem do lado da janela e seus dois amigos estão sentados à sua esquerda:{w=1} João bem do seu lado e Beatriz na última poltrona."
-    airplane_2 = "Olhando pela janela do avião dá para ver o tanto que o avião está longe do chão.{w=1} No momento ele sobrevoa o oceano, bem perto das nuvens, que desmancham ao tocar na asa, e próximo a pássaros que voam em bando{w=1}. Uma cena de encher os olhos."
-    airplane_3 = "Você olha para o outro lado e vê seus dois amigos conversando, eles parecem muitos felizes.{w=1} Você não participa da conversa, Beatriz ri bastante e João fica olhando várias vezes para você, com uma cara de preocupado.{w=1} Em uma dessas olhadas ele para e te pergunta:"
-    airplane_4 = "Cara, você está se sentindo bem?"
-    airplane_5 = "Nesse momento Beatriz para de rir e os dois te olham atentamente esperando a sua resposta:"
-    airplane_notify1 = "{b}{color=#33b77a} João{/color}{/b} se preocupa com você"
-    airplane_5c1 = "Dizer que está bem."
-    airplane_5c2 = "Reclamar por deixar de fora da conversa."
-    airplane_ID1_1_vc1 = "Estou bem sim, obrigado por perguntar. Só estou incomodado com uma coisa aqui..."
-    airplane_ID1_1_j1 = "Ah cara, o que que te incomoda? Posso ajudar?{w=1} Você sabe que pode contar comigo à qualquer hora né?"
-    airplane_ID1_1_n = "Você está mesmo incomodado, talvez seja aquela cena da menina que você é apaixonado conversando tão intimamente com o seu melhor amigo.{w=1} Você também sente uma outra sensação, uma do tipo bem estranha.{w=1} Você sente que algo inesperado vai acontecer ali, uma intuição.{w=1} Até você acha estranho aquilo e sente receio de falar, pois acha que vão te chamar de maluco..."
-    airplane_ID1_1_c1 = "Falar da conversa dele com Beatriz"
-    airplane_ID1_1_c2 = "Falar do pressentimento que você tem"
-    airplane_ID1_1_c3 = "Não contar nada"
-    airplane_ID2_1_vc1 = "Nada cara... Só não queria atrapalhar a conversinha de vocês dois ai..."
-    airplane_ID2_1_j1 = "Xiii, lá vem ele de ciuminhos de novo..."
-    airplane_ID2_1_b1 = "Ei! Mas que conversa é essa?"
-    airplane_notify1 = "{b}{color=#33b77a} João{/color}{/b} notou seus ciúmes"
-    airplane_ID2_1_j2 = "Não, não é nada sobre você, - ele olha para você e pisca um olho - não se preocupe."
-    airplane_ID2_1_b2 = "Não gosto desse tom da conversa de vocês..."
-    airplane_ID2_1_vc2 = "Quer saber? Vou dormir que eu ganho mais, me acordem na hora de desembarcar."
-    airplane_ID2_1_b3 = "Do jeito que você {i}tá{/i} estranho, te deixo aí pra te mandarem de volta hahaha (Risos)."
-    airplane_ID2_1_vc3 = "Haha, engraçada..."
-    airplane_ID2_1_j3 = "Dorme bem cara!"
+    airplane_1 = "You are on a commercial flight coming home from a trip with two of your friends.{w=1} You got the window seat on the right row, and your friends are seating next to you, on your left.:{w=1} João is right beside you and Beatriz is right beside him, taking the aisle seat."
+    airplane_2 = "Looking out of the window you can see how far from the ground the airplane is.{w=1} At that moment you were crossing the ocean, very close to the clouds falling apart to the touch of the airplane's wing, and also next to a flock of birds migrating{w=1}.An astonishing scene, for sure."
+    airplane_3 = "Now you turn to your left and see both of your friends chatting, they seem pretty happy.{w=1}You do not intrude their conversation, Beatriz laughs really hard and João keeps glancing at you, with a concerned expression on his face.{w=1} After a while, he finally asks you:"
+    airplane_4 = "Dude, are you okay?"
+    airplane_5 = "At this point Beatriz stops laughing and both of them wait for your reply:"
+    airplane_notify1 = "{b}{color=#33b77a} João{/color}{/b} is worried about you"
+    airplane_5c1 = "Say that you are fine."
+    airplane_5c2 = "Complain because you felt left out of the conversation."
+    airplane_ID1_1_vc1 = "Yeah, I'm good, thanks for asking. It's just that there's something that's bothering me..."
+        airplane_ID1_1_j1 = "Oh man, what's up? Can I help?{w=1} You know you can count on me, right?"
+        airplane_ID1_1_n = "You definitely feel troubled, it may be because the girl you are in love with has been chatting a little too intimately with your best friend.{w=1} You also have another feeling... a very strange type of feeling.{w=1} You feel like something unexpected is about to go down, it almost feels like some sort of... Intuition, maybe?.{w=1}  You think that's too weird (even for you), and so you are afraid of telling that to your friends, since they may not understand you and say you are crazy"
+    airplane_ID1_1_c1 = "Talk about João's conversation with Beatriz"
+    airplane_ID1_1_c2 = "Talk about the feeling you have"
+    airplane_ID1_1_c3 = "Don't tell anything"
+    airplane_ID2_1_vc1 = "It's nothing... I don't want to interrupt you guys... "
+    airplane_ID2_1_j1 = "Sooo... are you jelly again, man?"
+    airplane_ID2_1_b1 = "Hey, what are you talking about?"
+    airplane_notify1 = "{b}{color=#33b77a} João{/color}{/b} has noticed your jealousy"
+    airplane_ID2_1_j2 = "Nothing, it's not about you, - he winks at her - don't worry."
+    airplane_ID2_1_b2 = "I don't like the tone of this conversation..."
+    airplane_ID2_1_vc2 = "You know what? I'm gonna take a nap, wake me up when we get home"
+    airplane_ID2_1_b3 = "Well, you've been acting so weird that we might not even notice if you're asleep or awake (Laughter)."
+    airplane_ID2_1_vc3 = "Haha, you're so funny..."
+    airplane_ID2_1_j3 = "Sleep tight dude!"
     airplane_ID2_1 = "Você então encosta cabeça na poltrona e vira a cabeça para a janela do avião, aquela paisagem vai te relaxando e rapidamente você cai no sono."
-    airplane_ID2_2_vc1 = "Não sei bem o que é. Eu sinto como se alguma coisa de ruim estivesse para acontecer..."
-    airplane_ID2_2_j1 = "Como assim cara? Estamos em um avião! Eu como um ex militar te garanto que é o meio de transporte mais seguro que existe!{w=1} Acho que isso é mania de detetive."
+    airplane_ID2_2_vc1 = "I don't know exacly. I just feel like something really bad was about to happen..."
+    airplane_ID2_2_j1 = "What do you mean man? We are on a plane! Eu como um ex militar te garanto que é o meio de transporte mais seguro que existe!{w=1} Acho que isso é mania de detetive."
     airplane_ID2_2_b1 = "Cara, deixa de paranóia. Relaxa ai..."
     airplane_ID2_2 = "Ele e Beatriz começam a rir."
     airplane_ID2_2_vc2 = "Qual o motivo da graça?"
