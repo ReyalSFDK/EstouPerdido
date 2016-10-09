@@ -2,7 +2,7 @@ init -3 python:
 ######################################################
 ##      Tradução Para o Inglês                      ##
 ######################################################
-if lang == "en":
+    if lang == "en":
 ######## Nome do Jogo
         config.name = 'I Am Lost'
 ######## Navegação
