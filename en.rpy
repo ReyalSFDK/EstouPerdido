@@ -48,6 +48,7 @@ init -3 python:
         config_sound = 'Sound Volume'
         config_music = 'Music Volume'
         config_mute = 'Mute'
+        config_rebot = "* Necessário reiniciar o jogo."
 ######################################################
 ##      Tradução do Iventário                       ##
 ######################################################
