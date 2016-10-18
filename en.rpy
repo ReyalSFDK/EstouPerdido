@@ -15,6 +15,7 @@ init -3 python:
         nav_about = 'About'
         nav_help = 'Help'
         nav_quit = 'Exit'
+        nav_skip = 'Skip'
 ######## Geral
         lang_Yes = 'Yes'
         lang_No = 'No'
@@ -66,7 +67,9 @@ init -3 python:
         obj_semObj_title = "Sem Objetivos"
         obj_semObj_desc = "Você ainda Não Possui Objetivos."
         obj_ComerAlgo_title = "Comer alguma coisa"
-        obj_ComerAlgo_desc = "Achar algo na praia que mate a sua fome."
+        obj_ComerAlgo_desc = "Achar algo na ilha que mate a sua fome."
+        obj_SairDaIlha_title = "Sair da Ilha"
+        obj_SairDaIlha_desc = "Achar algum meio de sair da ilha."
 ######## Estado
         sts_fome_name = "{color=#FF6347}Fome{/color}"
         sts_fome_desc = "Você está com fome no momento."
@@ -76,6 +79,10 @@ init -3 python:
         sts_fome3_desc = "{color=#EEAD0E} Você está morrendo de fome!{/color} ."
         sts_semFome_name = "Satisfeito"
         sts_semFome_desc = "Atualmente você está Satisfeito."
+        sts_calcado_name = "Você está calçado"
+        sts_calcado_desc = "Atualmente você está calçando um tênis que protege seus pés."
+        sts_descalco_name = "Você está descalço"
+        sts_descalco_desc = "Atualmente você está descalço. Melhor olhar onde pisa."
         sts_ciumesJoao_name = "Você sente ciúmes de João"
         sts_ciumesJoao_desc = "Você demostrou sentir ciúmes da conversa de Beatriz e João no avião."
 ######################################################
@@ -241,10 +248,10 @@ init -3 python:
         praia_1 = "Você está deitado de olhos fechados e sente á água batendo em seu rosto.{w=1} Você vai abrindo os olhos lentamente e enxerga o mar a sua frente.{w=1} Seu rosto está sujo de areia, você apoia as duas mãos no chão e dá um impulso para levantar, e logo começa a limpar o rosto com as mãos."
         praia_2 = "Olhando ao redor parece ser uma praia, o cheiro do mar é predominante junto com o som das ondas se quebrando. "
         praia_3 = "Perto da praia há uma {b}floresta bem densa.{/b}{w=1} No encontro da floresta com a praia há coqueiros altos e bananeiras com cachos cheios. {w=1}Já na beira do mar há algumas malas abertas no chão. Sua barriga ronca de {color=#f00}fome{/color}, parece que você não come {b}à dias.{/b}"
-        praia_notify_1 = ["Função Desbloqueada: Inventário!","Agora você pode acompanhar seu Estado! Você verá um novo alerta quando as informações forem atualizadas."]
-        praia_4 = "Suas roupas estão rasgadas, mas não há qualquer tipo de ferimento.{w=1} Também não há qualquer sinal de vida no seu campo de visão - nem sinal de morte -.O único sinal que faz você lembrar do que aconteceu no avião são aquelas malas ali na areia, nada além disso."
+        praia_notify_1 = ["Função Desbloqueada: Inventário!","Agora você pode acompanhar seu {b}Estado!{/b} Você verá um novo alerta quando as informações forem atualizadas."]
+        praia_4 = "Suas roupas estão rasgadas, mas não há qualquer tipo de ferimento.{w=1} Também não há qualquer sinal de vida no seu campo de visão - nem sinal de morte -.{w=1} O único sinal que faz você lembrar do que aconteceu no avião são aquelas malas ali na areia, nada além disso."
         praia_vc1 = "Cara, estou um pouco tonto... Minha cabeça dói, e {b}estou com fome...{/b} E ainda teve aquele acidente, como ainda estou vivo? E o mais importante, como vou sair daqui?"     
-        praia_notify_2 = ["Função Desbloqueada no Inventário!","Agora você pode acompanhar seus Objetivos! Você verá um novo alerta quando as informações forem atualizadas.{p}{b}* Você tem um novo Objetivo!{/b}"]
+        praia_notify_2 = ["Função Desbloqueada no Inventário!","Agora você pode acompanhar seus {b}Objetivos!{/b} Você verá um novo alerta quando as informações forem atualizadas.{p}{b}* Você tem um novo Objetivo!{/b}"]
 
         praia_ID1_vc1 = "O que devo fazer agora?"
         praia_ID1_c1 = "Olhar Coqueiros"
@@ -255,8 +262,61 @@ init -3 python:
         praia_ID1_c1_vc1 = "Parece que vou ter que ficar na vontade, os coqueiros são muito altos para eu subir, não conseguiria com a fome que estou."
         praia_ID1_c2_1 = "Você vai chegando perto de uma das inúmeras bananeiras da praia, esta está com o cacho cheio e uma cor atraente. Você pega algumas e come."
         praia_ID1_c2_vc1 = "Hum, que delícia essas bananas, estou satisfeito por agora. Melhor eu seguir meu caminho e arranjar um jeito de sair daqui."
-        praia_notify_4 = ["Atualização de Inventário","O {b} Estado{/b} foi atualizado!"]
+        praia_notify_4 = ["Atualização de Inventário","O {b} Estado{/b} e {b}Objetivos foram atualizados!"]
         praia_ID1_c3_1 = "Você vai chegando perto do mar e observa uma mala aberta e toda revirada no chão da areia. As roupas e alguns pertences estão um pouco longe da mala. Você pega o lacre da mala e vê que ele foi cortado com algum objeto afiado. Não há mais nada de útil aqui."
         praia_ID1_c4_1 = "Você sai caminhando pela costa da praia em busca de algum mantimento ou até mesmo uma saída daquele lugar. Já são vários Quilômetros percorridos e você não encontrou nada o que possa te ajudar."
+        praia_notify_5 = ["Atualização de Inventário","O {b} Objetivo{/b} foi atualizado!"]
+        praia_notify_6 = ["Atualização de Inventário","O {b} Estado{/b} foi atualizado!"]
+        praia_ID1_vc2 = "Não consigo achar nada nessa ilha... Meus amigos?{w=1} Será que estão vivos?{w=1} Como que eu consegui sobreviver aquela queda?{w=1} Tantas perguntas... {w=1}Tenho que achar um meio {b}de sair dessa ilha rápido!{/b}"
 
+        praia_ID2_n1 = "Você então sai andando pela costa da ilha.{w=1} Um lugar que parece ser tranquilo.{w=1} Mas não há quaisquer sinal de vida, nem mesmo aves.{w=1} Você ja está andando a muito tempo e a paisagem sempre parece a mesma."
+        praia_ID2_n2 = "A areia da praia começa a entrar em seu tênis causando um desconforto nos seus pés."
+        praia_ID2_n3 = "{b} Você deseja retirar seus sapatos?{/b}"
+        praia_ID2_c1 = "Sim"
+        praia_ID2_c2 = "Não"
+        praia_ID2_c1_n1 = "Você retirou os sapatos."
+        praia_ID2_c2_n1 = "Você continua calçado."
+        praia_ID2_n4 = "Continuando andando pela areia da praia você ouve alguns gritos de dor vindo de trás de algumas pedras a alguns metros à sua frente."
+        praia_ID2_n5 = "{b}Você deseja ir até lá?{/b}"
+        praia_ID2_c3 = "Sim"
+        praia_ID2_c4 = "Não"
+        praia_ID2_c4_1 = "Você dá à volta pelas rochas o mais distante possível e continua seu caminho."
+        praia_ID2_n6 = "Á medida que você vai se aproximando os gritos vão diminuindo aos poucos.{w=1} Atrás das pedras você encontra um homem deitado no chão, com um ferro atravessado em sua barriga.{w=1} Seu sangue está escorrendo pelo chão e dá para ver que alguns de seus órgãos saem pelo buraco na sua barriga.{w=1} O homem é um senhor já de idade, cabelos e barba grisalhos e com uniforme que parece ser da empresa do avião. Há um crachá no uniforme escrito {b}{color=#b7b77a}Alex Silva - Copiloto{/color}{/b}"
+        praia_ID2_n7 = "O homem está muito pálido e parece fraco demais tentar alguma coisa, ele tenta dizer alguma coisa.{w=1} Mas suas palavras engasgam junto com o sangue na sua boca."
+        praia_ID2_vc1 = "Você está bem senhor... Alex?"
+        praia_ID2_n8 = "Uma pergunta automática e a qual já é retórica.{w=1} Talvez ele saiba de algo que aconteceu no avião, afinal é o copiloto.{w=1} Talvez saiba quem fez isso com ele, pois não há qualquer fragmento do avião por perto, até mesmo onde podem estar os outros tripulantes.{w=1} De qualquer forma, ele está sofrendo muito e não parece aguentar muito tempo."
 
+        praia_ID2_c5 = "Perguntar o que aconteceu no avião"
+        praia_ID2_c5_vc1 = "Senhor Alex, o que aconteceu no avião?"
+        praia_ID2_c5_a1 = "A culpa... foi o piloto! {w=1}{i}- O homem tosse fortemente e fala pausadamente, alternado entre as palavras e os gritos de dor -{/i}{w=1}{cps=15} Ele era meu amigo há muito tempo, mas naquela viagem... Ele não... era o... mesmo!{/cps}{w=1}{i} - O senhor começa a ficar inquieto, se remexendo no chão e consequentemente rasgando seu abdômen ainda mais -{/i}{w=1}{cps=15} Eu Tentei... Juro que... Tentei...{/cps}"
+        praia_ID2_c5_vc2 = "Ele desviou a rota?{w=1} Por quê?{w=1} Alex?"
+        praia_ID2_c5_n1 = "Logo o homem para de respirar, suas últimas palavras ficam gravadas na memória..."
+
+        praia_ID2_c6 = "Perguntar o que aconteceu com ele"
+        praia_ID2_c6_vc1 = "Senhor Alex, o que aconteceu com o senhor?"
+        praia_ID2_c6_a1 = "Foram eles!{w=1} Eles conseguiram me achar! {w=1}{i}- O senhor começa a ficar inquieto, se remexendo no chão e consequentemente rasgando seu abdômen ainda mais -{/i}{w=1} Depois de {b}tantos anos... tantas vezes...{/b}"
+        praia_ID2_c6_vc2 = "Eles? {w=1}Quem senhor Alex?"
+        praia_ID2_c6_a2 = "Fuja... filho! {w=1}{i}- O homem tosse fortemente e fala pausadamente, alternado entre as palavras e os gritos de dor -{/i}.{w=1} {cps=20}Fuja antes que{cps=15}... o próximo{cps=10}... seja... você!...{/cps}{/cps}{/cps}"
+        praia_ID2_c6_vc3 = "Eles quem?{w=1} E porquê?{w=1} Alex?"
+        praia_ID2_c6_n1 = "Logo o homem para de respirar, suas últimas palavras ficam gravadas na memória..."
+
+        praia_ID2_c7 = "Perguntar onde estão os outros tripulantes"
+        praia_ID2_c7_vc1 = "Senhor Alex, onde estão os outros? Você os viu?"
+        praia_ID2_c7_a1 = "Eles os levaram!{w=1} A maioria!{w=1}{i} - O senhor começa a ficar inquieto, se remexendo no chão e consequentemente rasgando seu abdômen ainda mais -{/i}{w=1} Eu estava com um grupo de tripulantes... {cps=20}foi uma emboscada... {cps=15}alguns fugiram... outros foram levados{cps=10}... e eu... aqui...{/cps}{/cps}{/cps}"
+        praia_ID2_c7_vc2 = [" e ", " estavam com você?{w=1} Será que estão bem?{w=1} Senhor Alex? {w=1}{b}Senhor Alex?!{/b}"]
+        praia_ID2_c7_n1 = "Logo o homem para de respirar, suas últimas palavras ficam gravadas na memória..."
+
+        praia_ID2_c8 = "Acabar com o sofrimento dele de vez"
+        praia_ID2_c8_vc1 = "Ninguém deve sofrer tanto assim..."
+        praia_ID2_c8_n1 = "Você vai andando até as rochas e olha elas por alguns segundos, se abaixa, pega uma e fala:"
+        praia_ID2_c8_vc2 = "Deve servir..."
+        praia_ID2_c8_n2 = "Você então se aproxima do homem e levanta a rocha sobre sua cabeça.{w=1} O senhor olha para cima em sua direção e sorrir.{w=1} Você então arremessa a rocha sobre a cabeça do homem, o impacto faz espalhar sangue e pedaços do celebro para todos os lados.{w=1} O que restou da sua cabeça foi atolada na areia. "
+
+        praia_ID2_c9 = "Confotá-lo nos momentos finais da vida dele"
+        praia_ID2_c9_vc1 = "Calma senhor, vai ficar tudo bem, o senhor vai ficar bem..."
+        praia_ID2_c9_a1 = "Obrigado meu jovem...{w=1}{cps=20} Mas minha hora chegou...{w=0.5}{cps=15} Obrigado por não me...{w=0.5} {cps=10}Deixar...{/cps}{/cps}{/cps} "
+        praia_ID2_c9_n1 = "Logo o senhor para de respirar, uma lágrima sai do rosto do homem, que morreu em paz."
+
+        praia_ID2_c10 = "Ir Embora"
+        praia_ID2_c10_vc1 = "Não, eu não aguento ver mais isso..."
+        praia_ID2_c10_n1 = "Você então se afasta rápidamente daquele local."
