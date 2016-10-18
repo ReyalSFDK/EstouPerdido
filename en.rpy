@@ -104,6 +104,11 @@ init -3 python:
         cnqst_doido_info = "Raciocinar sobre uma cena pela 1ª vez"
 
 ######################################################
+##      Tradução dos Créditos                       ##
+######################################################
+        creditos_1 = "Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
+        creditos_2 = "\n Tradução para o Inglês por {color=#F00}{b}Pandora Pimentel{/b}{/color}\n Email: {a=mailto:pandorahari@hotmail.com}pandorahari@hotmail.com{/a}"
+######################################################
 ##      Tradução da História                        ##
 ######################################################
         game_you = 'Você'
