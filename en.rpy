@@ -20,6 +20,7 @@ init -3 python:
         lang_Yes = 'Yes'
         lang_No = 'No'
         lang_version = 'Version'
+        lang_loading = "{size=40} Carregando...{/size}"
         lang_back = 'Back'
 ######## Confirmações
         confirm_quit = 'Are you sure you want to leave the game?'
@@ -103,6 +104,21 @@ init -3 python:
         cnqst_doido_text = "Falando sozinho na praia"
         cnqst_doido_info = "Raciocinar sobre uma cena pela 1ª vez"
 
+######################################################
+##      Tradução do Tips                            ##
+######################################################
+        tips = ["{b}{color=#f00}Medo:{/color}{/b} Sentimento que te faz lembrar que você só tem uma chance, uma tentativa, uma vida.",
+                "É no escuro da noite que seus medos se tornam realidade, cuidado.",
+                "Mas vale um medroso vivo que um corajoso morto.",
+                "É no escuro da noite que seus pesadelos se tornam realidade, cuidado.",
+                "Suas escolhas afetam seu desepenho e suas habilidades no jogo.",
+                "Mas vale um medroso vivo do que um corajoso morto.",
+                "Use sua imaginação para vizualizar a cena e escolher as melhores opções.",
+                "Não existem escolhas certas e erradas, existe a sua escolha e a futura consequência.",
+                "O que você acha que é certo para você pode ferir os princípios do próximo.",
+                "Sua personalidade interfere na história, ser honesto ou não pode definir se você continua vivo.",
+                "Ser honesto ou fazer qualquer coisa para salvar sua vida?",
+                "Você pode salvar seu progresso á qualquer momento clicando em {b}Salvar{/b}. Quando quiser, clique em continuar no menu principal para voltar ao jogo."]
 ######################################################
 ##      Tradução dos Créditos                       ##
 ######################################################
