@@ -20,7 +20,7 @@ init -3 python:
         lang_Yes = 'Yes'
         lang_No = 'No'
         lang_version = 'Version'
-        lang_loading = "{size=40} Carregando...{/size}"
+        lang_loading = "{b}{size=40} Carregando...{/size}{/b}"
         lang_back = 'Back'
 ######## Confirmações
         confirm_quit = 'Are you sure you want to leave the game?'
