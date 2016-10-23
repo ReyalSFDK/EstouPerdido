@@ -251,7 +251,7 @@ init -3 python:
         aviao_ID4_1 = "Você então acorda, abrindo lentamente os olhos você vê a janela com vista para o oceano e uma ilha. Um pouco tonto, seus sentidos vão voltando aos poucos, e, como em um reflexo você olha para seus dois braços em busca de algum ferimento - não há nada, nem um arranhão -."
         aviao_ID4_2 = "Você respira aliviado, sem entender nada e já parcialmente recuperado você comenta, virando a cabeça para a sua esquerda:"
         aviao_ID4_vc1 = "Gente, vocês não vão acreditar..."
-        aviao_ID4_3 = "Seus amigos estão com máscaras de ar no rosto e os cintos apertados.{p=1}{color=#f00}Uma aeromoça é arremessada de uma ponta a outra do avião.{/color}{p=1}Com seus sentidos recuperados você sente o avião tremer muito e consegue ouvir as pessoas gritarem apavorizadas."
+        aviao_ID4_3 = "Seus amigos estão com máscaras de ar no rosto e os cintos apertados.{p=1}{color=#f00}Uma aeromoça é arremessada de uma ponta a outra do avião.{/color}{p=1}Com seus sentidos recuperados você sente o avião tremer muito e consegue ouvir as pessoas gritarem apavoradas."
         aviao_ID4_4 = "Há um buraco enorme do casco do avião. {p=1}Há pessoas que são arrastadas para aquele buraco e entram em queda livre no céu. As malas dos compartimentos voam sobre o interior do avião.{p=1}Você está sem seus cintos e começa a sentir {b}dificuldades para respirar.{/b}"
         aviao_ID4_c1 = "Apertar os Cintos"
         aviao_ID4_c1_1 = "Você tenta puxar os cintos de segurança da poltrona do avião, mas parece está emperrado em alguma coisa, o avião começa a se inclinar para frente e você é jogado para a poltrona da frente com muita força."
