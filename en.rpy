@@ -41,6 +41,7 @@ init -3 python:
         config_es = 'Spanish'
         config_textSpeed = 'Subtitle Speed'
         config_default = 'Standard'
+        config_fast = 'Slow'
         config_fast = 'Fast'
         config_textSize = 'Subtitle Size'
         config_small = 'Small'
