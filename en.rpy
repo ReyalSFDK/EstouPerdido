@@ -20,7 +20,7 @@ init -3 python:
         lang_Yes = 'Yes'
         lang_No = 'No'
         lang_version = 'Version'
-        lang_loading = "{b}{size=40} Carregando...{/size}{/b}"
+        lang_loading = "{b}{size=40} Loading...{/size}{/b}"
         lang_back = 'Back'
 ######## Confirmações
         confirm_quit = 'Are you sure you want to leave the game?'
@@ -50,43 +50,43 @@ init -3 python:
         config_sound = 'Sound Volume'
         config_music = 'Music Volume'
         config_mute = 'Mute'
-        config_rebot = "* Necessário reiniciar o jogo."
+        config_rebot = "* The game needs to be restarted."
 ######################################################
 ##      Tradução do Iventário                       ##
 ######################################################
 ######## Menu
-        inv_name = 'Inventário'
-        inv_status = 'Estado'
-        inv_item = 'Itens'
-        inv_obj = 'Objetivos'
+        inv_name = 'Inventory'
+        inv_status = 'Status'
+        inv_item = 'Items'
+        inv_obj = 'Objectives'
 ######## Itens
-        item_SemItem_name = "Sem Itens"
-        item_SemItem_desc = "Você não pode carregar itens no momento."
-        item_mochila_name = "Mochila"
-        item_mochila_desc = "Uma mochila de viagens. É possível carregar itens nela."
+        item_SemItem_name = "No Items"
+        item_SemItem_desc = "You can't carry anymore items at the moment."
+        item_mochila_name = "Backpack"
+        item_mochila_desc = "A backpack. It is possible to carry items on it"
 ######## Objetivos
-        obj_c = "{color=#54FF9F}[Completado]{/color} "
-        obj_n = "{color=#FF6347}[Não Completado]{/color}"
-        obj_semObj_title = "Sem Objetivos"
-        obj_semObj_desc = "Você ainda Não Possui Objetivos."
-        obj_ComerAlgo_title = "Comer alguma coisa"
-        obj_ComerAlgo_desc = "Achar algo na ilha que mate a sua fome."
-        obj_SairDaIlha_title = "Sair da Ilha"
-        obj_SairDaIlha_desc = "Achar algum meio de sair da ilha."
+        obj_c = "{color=#54FF9F}[Completed]{/color} "
+        obj_n = "{color=#FF6347}[Not Completed]{/color}"
+        obj_semObj_title = "No Objectives"
+        obj_semObj_desc = "You don't have any objectives yet."
+        obj_ComerAlgo_title = "Eat something"
+        obj_ComerAlgo_desc = "Find something to eat on the island."
+        obj_SairDaIlha_title = "Leave the island"
+        obj_SairDaIlha_desc = "Find a way to leave the island."
 ######## Estado
-        sts_fome_name = "{color=#FF6347}Fome{/color}"
-        sts_fome_desc = "Você está com fome no momento."
-        sts_fome2_name = "{b}Fome{b}"
-        sts_fome2_desc = "Você está com muita fome no momento."
-        sts_fome3_name = "{b}Fome{/b}"
-        sts_fome3_desc = "{color=#EEAD0E} Você está morrendo de fome!{/color} ."
-        sts_semFome_name = "Satisfeito"
-        sts_semFome_desc = "Atualmente você está Satisfeito."
-        sts_calcado_name = "Você está calçado"
-        sts_calcado_desc = "Atualmente você está calçando um tênis que protege seus pés."
-        sts_descalco_name = "Você está descalço"
-        sts_descalco_desc = "Atualmente você está descalço. Melhor olhar onde pisa."
-        sts_ciumesJoao_name = "Você sente ciúmes de João"
+        sts_fome_name = "{color=#FF6347}Hunger{/color}"
+        sts_fome_desc = "You are hungry at the moment."
+        sts_fome2_name = "{b}Hunger{b}"
+        sts_fome2_desc = "You are starving at the moment."
+        sts_fome3_name = "{b}Hunger{/b}"
+        sts_fome3_desc = "{color=#EEAD0E} You are almost dying of starvation!{/color} ."
+        sts_semFome_name = "Full"
+        sts_semFome_desc = "You are full right now."
+        sts_calcado_name = "You are wearing shoes"
+        sts_calcado_desc = "You are wearing sneakers to protect your feet."
+        sts_descalco_name = "You are not wearing any shoes"
+        sts_descalco_desc = "You are not wearing any shoes.You'd better watch where you step at."
+        sts_ciumesJoao_name = "You feel jealous of João"
         sts_ciumesJoao_desc = "Você demostrou sentir ciúmes da conversa de Beatriz e João no avião."
 ######################################################
 ##      Tradução das Conquistas                     ##
