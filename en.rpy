@@ -87,28 +87,28 @@ init -3 python:
         sts_descalco_name = "You are not wearing any shoes"
         sts_descalco_desc = "You are not wearing any shoes.You'd better watch where you step at."
         sts_ciumesJoao_name = "You feel jealous of João"
-        sts_ciumesJoao_desc = "Você demostrou sentir ciúmes da conversa de Beatriz e João no avião."
+        sts_ciumesJoao_desc = "You showed you were jealous of your friends conversation on the plane."
 ######################################################
 ##      Tradução das Conquistas                     ##
 ######################################################
-        cnqst_unloked = "Conquista Desbloqueada!"
-        cnqst_1vez_title = "Estou Perdido"
-        cnqst_1vez_text = 'Acordar em um lugar {i}"desconhecido"{/i}'
-        cnqst_1vez_info = "Jogue o Estou perdido pela primeira vez. "
-        cnqst_Alex1_title = "Quebrando Crânios!"
-        cnqst_Alex1_text = "Mostrar sangue frio como assassino."
-        cnqst_Alex1_info = "Matar Alex com uma pedra."
-        cnqst_Alex2_title = "Descanse em Paz"
-        cnqst_Alex2_text = "Mostrar compaixão com Alex."
-        cnqst_Alex2_info = "Acompanhar Alex em seus momentos finais."
-        cnqst_doido_title = "Ficando Doido?!"
-        cnqst_doido_text = "Falando sozinho na praia"
-        cnqst_doido_info = "Raciocinar sobre uma cena pela 1ª vez"
+        cnqst_unloked = "Achievement Unlocked!"
+        cnqst_1vez_title = "I Am Lost"
+        cnqst_1vez_text = 'Waking up somewhere {i}"unknown"{/i}'
+        cnqst_1vez_info = "Played I Am Lost for the first time. "
+        cnqst_Alex1_title = "Smashing skulls!"
+        cnqst_Alex1_text = "Showing cold blood as a murderer."
+        cnqst_Alex1_info = "Killing Alex with a stone."
+        cnqst_Alex2_title = "Rest in peace"
+        cnqst_Alex2_text = "Showing empathy towards Alex."
+        cnqst_Alex2_info = "Being with Alex in his final moments."
+        cnqst_doido_title = "Getting out of your mind?!"
+        cnqst_doido_text = "Talking to yourself at the beach"
+        cnqst_doido_info = "Reasoning about a scene for the first time"
 
 ######################################################
 ##      Tradução do Tips                            ##
 ######################################################
-        tips = ["{b}{color=#f00}Medo:{/color}{/b} Sentimento que te faz lembrar que você só tem uma chance, uma tentativa, uma vida.",
+        tips = ["{b}{color=#f00}Fear:{/color}{/b} Sentimento que te faz lembrar que você só tem uma chance, uma tentativa, uma vida.",
                 "É no escuro da noite que seus medos se tornam realidade, cuidado.",
                 "Mas vale um medroso vivo que um corajoso morto.",
                 "É no escuro da noite que seus pesadelos se tornam realidade, cuidado.",
