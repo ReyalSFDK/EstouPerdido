@@ -108,12 +108,12 @@ init -3 python:
 ######################################################
 ##      Tradução do Tips                            ##
 ######################################################
-        tips = ["{b}{color=#f00}Fear:{/color}{/b} Sentimento que te faz lembrar que você só tem uma chance, uma tentativa, uma vida.",
-                "É no escuro da noite que seus medos se tornam realidade, cuidado.",
-                "Mas vale um medroso vivo que um corajoso morto.",
-                "É no escuro da noite que seus pesadelos se tornam realidade, cuidado.",
-                "Suas escolhas afetam seu desepenho e suas habilidades no jogo.",
-                "Mas vale um medroso vivo do que um corajoso morto.",
+        tips = ["{b}{color=#f00}Fear:{/color}{/b} A feeling that reminds you that you've only got one chance, one shot, one life",
+                "It's in the dark of night that your nightmares come true, beware.",
+                "It's best to be a coward alive than brave and dead.",
+                "It's in the dark of night that your nightmares come true, beware.",
+                "Your choices affect your skills and development in the game.",
+                "It's best to be a coward alive than brave and dead.",
                 "Use sua imaginação para vizualizar a cena e escolher as melhores opções.",
                 "Não existem escolhas certas e erradas, existe a sua escolha e a futura consequência.",
                 "O que você acha que é certo para você pode ferir os princípios do próximo.",
