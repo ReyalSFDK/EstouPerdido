@@ -114,31 +114,31 @@ init -3 python:
                 "It's in the dark of night that your nightmares come true, beware.",
                 "Your choices affect your skills and development in the game.",
                 "It's best to be a coward alive than brave and dead.",
-                "Use sua imaginação para vizualizar a cena e escolher as melhores opções.",
-                "Não existem escolhas certas e erradas, existe a sua escolha e a futura consequência.",
-                "O que você acha que é certo para você pode ferir os princípios do próximo.",
-                "Sua personalidade interfere na história, ser honesto ou não pode definir se você continua vivo.",
-                "Ser honesto ou fazer qualquer coisa para salvar sua vida?",
-                "Você pode salvar seu progresso á qualquer momento clicando em {b}Salvar{/b}. Quando quiser, clique em continuar no menu principal para voltar ao jogo."]
+                "Use your imgination to visualize the scenes in order to make the best choice available",
+                "There are no right or wrong choices, there's only the choice you make and its consequence.",
+                "What you think is right might hurt someone else's values",
+                "Your personality influences the game. For instance, being honest or not might define wether you live or die.",
+                "To be honest or to do anything to survive?",
+                "You can save your progress at any time by clicking the {b}Save{/b} button.When you wish, hit "continue" at the Main Menu to return to your game."]
 ######################################################
 ##      Tradução dos Créditos                       ##
 ######################################################
         creditos_1 = "Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
-        creditos_2 = "\n Tradução para o Inglês por {color=#F00}{b}Pandora Pimentel{/b}{/color}\n Email: {a=mailto:pandorahari@hotmail.com}pandorahari@hotmail.com{/a}"
+        creditos_2 = "\n Translated from Portuguese to English by (me): {color=#F00}{b}Pandora Pimentel{/b}{/color}\n Email: {a=mailto:pandorahari@hotmail.com}pandorahari@hotmail.com{/a}"
 ######################################################
 ##      Tradução da História                        ##
 ######################################################
-        game_you = 'Você'
-        game_unknow = 'Estranho'
+        game_you = 'You'
+        game_unknow = 'Stranger'
         game_joao = 'João'
         game_bia = 'Beatriz'
         game_alex = 'Alex Silva'
-        chapter_1 = "{size=100}Capitulo 1{/size}{p} Sozinho"
-        choice_j_name = "Digite o nome do seu melhor amigo:"
-        choice_b_name = "Digite o nome da sua melhor amiga:"
-        confirm_choices = ["Obrigado, o nome do seu melhor amigo é "
-                        , " e o da sua melhor amiga é "
-                        ," {p=1}{b} Bom Jogo!{/b} "]
+        chapter_1 = "{size=100}Chapter 1{/size}{p} Alone"
+        choice_j_name = "Type in your best friend's name (male):"
+        choice_b_name = "Type in your best friend's name (female):"
+        confirm_choices = ["Thank you, your best friend's names are "
+                        , " and "
+                        ," {p=1}{b} Enjoy your game!{/b} "]
 ######## Cena Avião
         aviao_1 = ["Você está dentro de um avião comercial voltando de uma viagem de férias com seus dois amigos.{w=1} Você está sentado na fileira da direita, na poltrona bem do lado da janela e seus dois amigos estão sentados à sua esquerda:{w=1} "
             ," bem do seu lado e "
