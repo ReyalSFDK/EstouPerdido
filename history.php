@@ -9,24 +9,24 @@ $continue = "Continue";
 $yes = "Yes";
 $no = "No";
 
-$airplane_1_p1 = "Você está dentro de um avião comercial voltando de uma viagem de férias com seus dois amigos. Você está sentado na fileira da direita, na poltrona bem do lado da janela e seus dois amigos estão sentados à sua esquerda: $Jname bem do seu lado e $Bnam3 na última poltrona.";
-$airplane_1_p2 = "Olhando pela janela do avião dá para ver o tanto que o avião está longe do chão. No momento ele sobrevoa o oceano, bem perto das nuvens, que desmancham ao tocar na asa, e próximo a pássaros que voam em bando. Uma cena de encher os olhos.";
-$airplane_1_p3 = "Você olha para o outro lado e vê seus dois amigos conversando, eles parecem muitos felizes. Você não participa da conversa, $Bname ri bastante e $Jname fica olhando várias vezes para você, com uma cara de preocupado. Em uma dessas olhadas ele para e te pergunta:";
-$airplane_1_j1 = "Cara, você está se sentindo bem?";
-$airplane_notify_1 = " $Jname se preocupa com você!";
-$airplane_1_p4 = "Nesse momento $Bname para de rir e os dois te olham atentamente esperando a sua resposta:";
+$airplane_1_p1 = "You are on a commercial flight coming home from a trip with two of your friends. You got the window seat on the right row, and your friends are seating next to you, on your left.: $Jname is right beside you and $Bname is right beside him, taking the aisle seat.";
+$airplane_1_p2 = "Looking out of the window you can see how far from the ground the airplane is. At that moment you were crossing the ocean, very close to the clouds falling apart to the touch of the airplane's wing, and also next to a flock of birds migrating.An astonishing scene, for sure.";
+$airplane_1_p3 = "Now you turn to your left and see both of your friends chatting, they seem pretty happy. You do not intrude their conversation, $Bname laughs really hard and $Jname keeps glancing at you, with a concerned expression on his face. After a while, he finally asks you:";
+$airplane_1_j1 = "Dude, are you okay?";
+$airplane_notify_1 = " $Jname is worried about you!";
+$airplane_1_p4 = "At this point $Bname stops laughing and both of them wait for your reply:";
 ///Escolhas
-$airplane_1_c1 = "Dizer que está bem.";
-$airplane_1_c2 = "Reclamar por deixar de fora da conversa.";
+$airplane_1_c1 = "Say that you are fine.";
+$airplane_1_c2 = "Complain because you felt left out of the conversation.";
 
 ///Dizer que esta bem (airplane_1_c1)
-$airplane_1_1_vc1 = "Estou bem sim, obrigado por perguntar. Só estou incomodado com uma coisa aqui...";
-$airplane_1_1_j1 = "Ah cara, o que que te incomoda? Posso ajudar? Você sabe que pode contar comigo à qualquer hora né?";
-$airplane_1_1_p1 = "Você está mesmo incomodado, talvez seja aquela cena da menina que você é apaixonado conversando tão intimamente com o seu melhor amigo. Você também sente uma outra sensação, uma do tipo bem estranha. Você sente que algo inesperado vai acontecer ali, uma intuição. Até você acha estranho aquilo e sente receio de falar, pois acha que vão te chamar de maluco...";
+$airplane_1_1_vc1 = "Yeah, I'm good, thanks for asking. It's just that there's something that's bothering me...";
+$airplane_1_1_j1 = "Oh man, what's up? Can I help? You know you can count on me, right?";
+$airplane_1_1_p1 = "You definitely feel troubled, it may be because the girl you are in love with has been chatting a little too intimately with your best friend. You also have another feeling... a very strange type of feeling. You feel like something unexpected is about to go down, it almost feels like some sort of... Intuition, maybe? You think that's too weird (even for you), and so you are afraid of telling that to your friends, since they may not understand you and say you are crazy"
 ///Escolhas
-$airplane_1_1_c1 = "Falar da conversa dele com $Bname";
-$airplane_1_1_c2 = "Falar do pressentimento que você tem";
-$airplane_1_1_c3 = "Não contar nada";
+$airplane_1_1_c1 = "Talk about $Jname's conversation with $Bname";
+$airplane_1_1_c2 = "Talk about the feeling you have";
+$airplane_1_1_c3 = "Don't tell anything";
 
 /// Reclamar por deixar(airplane_1_c2)
 $airplane_1_2_vc1 = "Ah, agora vocês perceberam que eu estou aqui né!";
@@ -40,16 +40,16 @@ $airplane_1_2_c2 = "Contar sobre o que você sentiu.";
 $airplane_1_2_c3 = "Dizer que não é da conta deles.";
 
 /// Falar da conversa (airplane_1_1_c1)
-$airplane_1_1_1_vc1 = "Nada cara... Só não queria atrapalhar a conversinha de vocês dois ai...";
-$airplane_1_1_1_j1 = "Xiii, lá vem ele de ciuminhos de novo...";
-$airplane_1_1_1_b1 = "Ei! Mas que conversa é essa?";
-$airplane_notify_2 = "$Bname notou seus ciúmes.";
-$airplane_1_1_1_j2 = "Não, não é nada sobre você, - ele olha para você e pisca um olho - não se preocupe.";
-$airplane_1_1_1_b2 ="Não gosto desse tom da conversa de vocês...";
-$airplane_1_1_1_vc2 = "Quer saber? Vou dormir que eu ganho mais, me acordem na hora de desembarcar.";
-$airplane_1_1_1_b3 = "Do jeito que você <i>tá</i> estranho, te deixo aí pra te mandarem de volta hahaha (Risos).";
-$airplane_1_1_1_vc3 = "Haha, engraçada...";
-$airplane_1_1_1_j3 = "Dorme bem cara!";
+$airplane_1_1_1_vc1 = "It's nothing... I don't want to interrupt you guys... ";
+$airplane_1_1_1_j1 = "Sooo... are you jelly again, man?";
+$airplane_1_1_1_b1 = "Hey, what are you talking about?";
+$airplane_notify_2 = "$Bname has noticed your jealousy.";
+$airplane_1_1_1_j2 = "Nothing, it's not about you, - he winks at her - don't worry.";
+$airplane_1_1_1_b2 = "I don't like the tone of this conversation...";
+$airplane_1_1_1_vc2 = "You know what? I'm gonna take a nap, wake me up when we get home.";
+$airplane_1_1_1_b3 = "Well, you've been acting so weird that we might not even notice if you're asleep or awake (Laughter).";
+$airplane_1_1_1_vc3 = "Haha, you're so funny...";
+$airplane_1_1_1_j3 = "Sleep tight dude!";
 $airplane_1_1_1_p1 = "Você então encosta cabeça na poltrona e vira a cabeça para a janela do avião, aquela paisagem vai te relaxando e rapidamente você cai no sono.";
     
 //Falar do presentimento (airplane_1_1_c2)(airplane_1_2_c2)
