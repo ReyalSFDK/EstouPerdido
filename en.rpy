@@ -140,19 +140,19 @@ init -3 python:
                         , " and "
                         ," {p=1}{b} Enjoy your game!{/b} "]
 ######## Cena Avião
-        aviao_1 = ["Você está dentro de um avião comercial voltando de uma viagem de férias com seus dois amigos.{w=1} Você está sentado na fileira da direita, na poltrona bem do lado da janela e seus dois amigos estão sentados à sua esquerda:{w=1} "
-            ," bem do seu lado e "
-            ," na última poltrona."]
-        aviao_2 = "Olhando pela janela do avião dá para ver o tanto que o avião está longe do chão.{w=1} No momento ele sobrevoa o oceano, bem perto das nuvens, que desmancham ao tocar na asa, e próximo a pássaros que voam em bando{w=1}. Uma cena de encher os olhos."
-        aviao_3 = ["Você olha para o outro lado e vê seus dois amigos conversando, eles parecem muitos felizes.{w=1} Você não participa da conversa, "
-            ," ri bastante e "
-            ," fica olhando várias vezes para você, com uma cara de preocupado.{w=1} Em uma dessas olhadas ele para e te pergunta:"]
-        aviao_4 = "Cara, você está se sentindo bem?"
-        aviao_notify_1 = "{b} {color=#33b77a} [jname]{/color}{/b} se preocupa com você!"
-        aviao_5 = ["Nesse momento "
-            ," para de rir e os dois te olham atentamente esperando a sua resposta:"]
-        aviao_5c1 = "Dizer que está bem."
-        aviao_5c2 = "Reclamar por deixar de fora da conversa."
+        aviao_1 = ["You are in a comercial flight, coming home from a vacation trip with your two friends.{w=1} You are sitting on the right row, you got the window seat and your two friends are sitting to your left:{w=1} "
+            ," right next to you and "
+            ," at the last seat."]
+        aviao_2 = "Looking through the window, you can see how far away from the ground the plane is.{w=1} At the moment it flies above the ocean, really close to the clouds and next to a flock of birds{w=1}. A delightful scene."
+        aviao_3 = ["You look to your side and see both of your friends chatting, they seem happy.{w=1} You're not in that conversation, "
+            ," laughs a lot and "
+            ," keeps staring at you, with a worried look on his face.{w=1} Through one of those glances, he asks you:"]
+        aviao_4 = "Dude, is everything okay?"
+        aviao_notify_1 = "{b} {color=#33b77a} [jname]{/color}{/b} worries about you!"
+        aviao_5 = ["At this moment "
+            ," stops laughing and both of the look at you, waiting for your reply:"]
+        aviao_5c1 = "Say you're okay."
+        aviao_5c2 = "Complain about being left out of the conversation."
 
         aviao_ID1_1_vc1 = "Estou bem sim, obrigado por perguntar. Só estou incomodado com uma coisa aqui..."
         aviao_ID1_1_j1 = "Ah cara, o que que te incomoda? Posso ajudar?{w=1} Você sabe que pode contar comigo à qualquer hora né?"
